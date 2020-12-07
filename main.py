@@ -10,7 +10,7 @@ time.sleep(3)
 background = 0
 count = 0
 
-#capturing backgroung
+#capturing background
 for i in range(30):
     ret,background = cap.read()
 background = np.flip(background, axis=1)
