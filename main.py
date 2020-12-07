@@ -3,7 +3,7 @@ import cv2
 import time
 import numpy as np
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0) #you can change this according to your choice of camera, my initial webcam is 0 
 
 time.sleep(3)
 
