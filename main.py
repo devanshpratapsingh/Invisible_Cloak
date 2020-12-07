@@ -47,7 +47,7 @@ while(cap.isOpened()):
     result2 = cv2.bitwise_and(img, img, mask=mask2)# Used to substitute the cloak part
     final_output = cv2.addWeighted(result1, 1, result2, 1, 0)
 
-    cv2.imshow('Aabra Kadabra🎇✨', final_output)
+    cv2.imshow('Avada Kedavra🎇✨', final_output)
     k = cv2.waitKey(10)
     if k==27:
         break
